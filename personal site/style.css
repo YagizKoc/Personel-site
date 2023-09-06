@@ -1,0 +1,427 @@
+
+body {
+   background: #c2c2c2;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Roboto', sans-serif;
+
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -1rem;
+    background-color: #241f4a;
+    width: 120%;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.linkedin-img{
+    margin-right: 1rem;
+}
+
+.github-img{
+    max-width: 15%;
+} 
+
+.header h1{
+    margin: 5rem;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+
+}
+
+@media all and (max-width:1000px){
+    .header{
+        margin-right: -10rem;
+        padding-left: 1rem ;
+        padding-right: 1rem;
+        
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .header h1{
+        margin: 1rem;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+    
+    }
+
+}
+.about-me{
+    display: flex;
+    align-items: center;
+    margin: 10rem;
+}
+
+.about-me img{
+    
+    max-width: 20%;
+   
+}
+
+.about-me p{
+    font-size: 2.5rem;
+    margin: 10rem;
+    color: rgb(0, 0, 0);
+}
+
+@media all and (max-width: 1000px){
+    .about-me{
+        margin: 1rem;
+       
+    }
+    .about-me img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .about-me p{
+        font-size: 20px;
+        
+    }
+}
+
+@media all and (max-width: 700px){
+   
+    .about-me{
+        margin: 1rem;
+        
+    }
+    .about-me img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .about-me p{
+        font-size: 13px;
+    }
+    .link-button{
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.projects-title{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255);
+    margin-left: -20px;
+    
+    padding: 1rem;
+    
+}
+
+.projects-title h1{
+    color: black;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+   
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.projects .card h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+
+}
+
+.projects .card img{
+    max-width: 30%;
+    display: flex;
+    margin: auto;
+    
+    
+}
+
+.projects .card p{
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    
+    
+    
+}
+
+.projects .card .link-button{
+    font-size: 2rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 1rem;
+
+    
+}
+
+.projects .card .link-button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ @media all and (max-width: 1000px){
+    .projects-title{
+        font-size: 20px;
+        margin-right: -2.5rem;
+        
+       
+        
+    }
+
+    .projects{
+        margin-right: 1rem ;
+        flex-direction: column;
+        width: 110%;
+        
+    }
+
+    .projects .card h1{
+        font-size: 20px;
+    }
+
+    .projects .card p {
+        font-size: 18px;
+    }
+
+    .projects .card a{
+        font-size: px;
+    }
+
+} 
+
+@media all and (max-width: 700px){
+    .projects-title{
+        font-size: 20px;
+        width: 122%;
+        
+        
+        
+    }
+
+    .projects{
+       width: 120%;
+       
+    }
+
+    .projects .card p {
+        font-size: 17px;
+        
+    }
+
+    .projects .card a{
+        font-size: 17px;
+    }
+}
+
+.education-tittle{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 3rem;
+    /* background-color: rgb(211, 172, 0); */
+    margin-left: -20px;
+    margin-right: -20px;
+    /* margin-top: 10rem; */
+
+
+}
+
+/* .education .lisans-card{
+    display: flex;
+    margin-right: 16rem ;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    
+
+}
+
+.education .lisans-card p{
+    text-align: center;
+}
+
+.iumat-img{
+    margin-right: 11.5rem;
+    padding-right: 4rem;
+}
+
+.iuybs-img{
+    margin-right: 5rem;
+    padding-right: 7rem ;
+    
+}
+
+.education .lisans-card h1{
+    display: flex;
+    
+}
+
+.education .lisans-card img{
+    max-width: 10%;
+    justify-content: center;
+    align-self: center;
+}
+
+.education .lise-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+    
+
+}
+
+.education .lise-card h1{
+    display: flex;
+    justify-content: center;
+}
+
+.education .lise-card img{
+    max-width: 6%;
+    justify-content: center;
+    align-self: center;
+} */
+
+.education{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lisans-card{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.iumat-text{
+    margin-right:6.5rem ;
+}
+
+.education-photos{
+    display: flex;
+    justify-content: center;
+}
+
+.education-photos img{
+    max-width: 20%;
+   padding: 4rem;
+}
+
+
+@media all and (max-width: 700px){
+
+    .education-tittle h1{
+        font-size: 30px;
+    }
+
+    .iumat-img{
+        display: none;
+    }
+
+    .iuybs-img{
+        display: none;
+    }
+
+    .iumat-text{
+       font-size: 20px;
+       padding-left: 2rem;
+      
+    }
+    
+    .iuybs-text{
+        font-size: 20px;
+        
+        
+        
+    }
+}
+
+   @media all and (max-width: 1000px){
+    .education-photos{
+        flex-direction: column;
+        width: 130%;
+    }}  
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    margin-left: -50px ;
+    margin-right: -50px;
+    margin-bottom: -50px;
+    margin-top: 5rem ;
+    border: solid 1px black;
+}
+
+.contact-card{
+    background-color: #c2c2c2;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 4rem;
+    
+}
+
+.contact-form h1{
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    
+    
+    
+}
+
+.contact-form .contact-card :nth-child(6){
+    height: 200px;
+}
+.contact-form .contact-card input{
+    width: 50%;
+    height: 40px;
+    align-self: center;
+    
+    
+}
+
+.contact-form .contact-card button{
+    width: 10%;
+    height: 30px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
